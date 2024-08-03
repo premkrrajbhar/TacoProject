@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Little Taco Shop</title>
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="top">
+      <h1>Welcome to The Little Taco Shop</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#aboutsec">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+          </li>
+          <li>
+            <a href="#menusec">Our Menu</a>
+          </li>
+          <li>
+            <a href="storehour.html" target="_blank">Store Hours</a>
+          </li>
+          <li>
+            <a href="contactus.html" target="_blank">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img src="Images/tacos_and_drink_400x267.png" alt="tacos and drink image" title="we love tacos" width="80%" height="100%"/>
+        <figcaption>Tacos and a Drink</figcaption>
+      </figure>
+      <hr>
+    </header>
+    <main>
+      <article id="aboutsec">
+        <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+        <section>
+          <p>
+            <abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our
+            shop was built from a <strong>love of tacos</strong> 🌮🌮🌮. We hope
+            our shop adds a unique and interesting place to our little town.
+          </p>
+        </section>
+        <aside>
+            <h3>Taco Trivia</h3>
+              <details>
+                <summary>When did tacos first appear in the United States?</summary>
+                <p>Jeffery M. Pilcher, taco historian and professor of history at the
+                  University of Minnesota, says the earlier mention of tacos in the
+                  United States are in a newspaper from <time datetime="1905">1905</time>. (Source:
+                  <cite><a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/" target="_blank">Smithsonian Magzine</a></cite>)</p>
+              </details>
+          </aside>
+      </article>
+      <hr>
+      <article id="menusec">
+        <h2>Our Menu</h2>
+        <div class="table-container">
+          <table>
+            <caption>Our Tacos</caption>
+              <thead>
+                <tr>
+                  <th>Tacons</th>
+                  <th><abbr title="Quantity">Qty</abbr></th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Tacos"  rowspan="3">Crunchy</td>
+                  <td data-label="Quantity">1</td>
+                  <td data-label="Price">$1.50</td>
+                </tr>
+                <tr>
+                  <td data-label="Quantity">2</td>
+                  <td data-label="Price">$2.50</td>
+                </tr>
+                <tr>
+                  <td data-label="Quantity">3</td>
+                  <td data-label="Price">$3.25</td>
+                </tr>
+                <tr>
+                  <td data-label="Tacos" rowspan="3">Soft</td>
+                  <td data-label="Quantity">1</td>
+                  <td data-label="Price">$2.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Quantity">2</td>
+                  <td data-label="Price">$3.50</td>
+                </tr>
+                <tr>
+                  <td data-label="Quantity">3</td>
+                  <td data-label="Price">$4.50</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">Chips &amp; Salsa $2</td>
+                </tr>
+              </tfoot>
+            </table>
+        </div>
+      </article>
+      <p>
+        <a href="#top">Back to Top</a>
+      </p>
+      <hr>
+    </main>
+    <footer>
+      <p>Copyright &copy; The Taco Shop</p>
+    </footer>
+  </body>
+</html>
